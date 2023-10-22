@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Flashcard from "./Flashcard";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Navbar from "./Navbar";
+import flashyConLogo from "./assets/FlashyCon Logo.png";
 
 function App() {
   const [flashcards, setFlashcards] = useState([]);
@@ -22,14 +22,21 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <Navbar></Navbar>
+      </div>
+      <div>
+        {" "}
+        <a href="/" target="_blank">
+          <img
+            className="logo"
+            src={flashyConLogo}
+            alt="FlashyCon Logo"
+            width={100}
+            height={100}
+          />
         </a>
       </div>
-      <h1>Flashcards - ConHacks 2023</h1>
+      <h1>FlashyCon - ConHacks 2023</h1>
 
       <div>
         {flashcards.map((flashcard, index) => (
@@ -44,7 +51,7 @@ function App() {
 
         {showModal && (
           <div className="modal open">
-            <div className="modal-header">New Flashcard</div>
+            <div className="modal-header">Create New Flashcard</div>
             <input
               className="modal-input"
               placeholder="Term"
