@@ -1,75 +1,41 @@
-import { useState } from "react";
 import "./App.css";
-import Flashcard from "./Flashcard";
 import Navbar from "./Navbar";
 import flashyConLogo from "./assets/FlashyCon Logo.png";
+import Courses from "./pages/Courses.jsx";
+import Flashcards from "./pages/Flashcards.jsx";
+import Home from "./pages/Home.jsx";
+import Qa from "./pages/Qa.jsx";
+import Unit from "./pages/Unit.jsx";
 
 function App() {
-  const [flashcards, setFlashcards] = useState([]);
-  const [showModal, setShowModal] = useState(false);
-  const [term, setTerm] = useState("");
-  const [definition, setDefinition] = useState("");
-
-  const handleNewFlashcard = () => {
-    if (term && definition) {
-      setFlashcards([...flashcards, { term, definition }]);
-      setTerm("");
-      setDefinition("");
-      setShowModal(false);
-    }
-  };
+  let Component;
+  switch (window.location.pathname) {
+    case "/":
+      Component = Home;
+      break;
+    case "/flashcards":
+      Component = Flashcards;
+      break;
+    case "/courses":
+      Component = Courses;
+      break;
+    case "/unit":
+      Component = Unit;
+      break;
+    case "/qa":
+      Component = Qa;
+      break;
+  }
 
   return (
     <>
+      <Navbar></Navbar>
       <div>
-        <Navbar></Navbar>
-      </div>
-      <div>
-        {" "}
         <a href="/" target="_blank">
-          <img
-            className="logo"
-            src={flashyConLogo}
-            alt="FlashyCon Logo"
-            width={100}
-            height={100}
-          />
+          <img className="logo" src={flashyConLogo} alt="FlashyCon Logo" />
         </a>
       </div>
-      <h1>FlashyCon - ConHacks 2023</h1>
-
-      <div>
-        {flashcards.map((flashcard, index) => (
-          <Flashcard
-            key={index}
-            term={flashcard.term}
-            definition={flashcard.definition}
-          />
-        ))}
-
-        <button onClick={() => setShowModal(true)}>Add Flashcard</button>
-
-        {showModal && (
-          <div className="modal open">
-            <div className="modal-header">Create New Flashcard</div>
-            <input
-              className="modal-input"
-              placeholder="Term"
-              value={term}
-              onChange={(e) => setTerm(e.target.value)}
-            />
-            <input
-              className="modal-input"
-              placeholder="Definition"
-              value={definition}
-              onChange={(e) => setDefinition(e.target.value)}
-            />
-            <button className="modal-button" onClick={handleNewFlashcard}>
-              Add
-            </button>
-          </div>
-        )}
-      </div>
+      <Component></Component>
     </>
   );
 }

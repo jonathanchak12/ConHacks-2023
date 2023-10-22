@@ -8,6 +8,9 @@ function Navbar() {
       </a>
       <ul>
         <li>
+          <a href="/flashcards">Flashcards</a>
+        </li>
+        <li>
           <a href="/courses">Courses</a>
         </li>
         <li>
