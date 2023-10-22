@@ -69,4 +69,4 @@ Contribution
 
 Acknowledgement
 ===============
-Thank the ConHacks Hackathon
+Thank the ConHacks2023 Hackathon
