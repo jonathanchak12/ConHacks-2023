@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "Deadline viewer",
+    "version": "1.0",
+  
+    "description": "Upcoming D2L deadlines at a glance.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+    
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.desire2learn.com/*"
+          ],
+        "js": [
+          "injectScripts.js"
+        ]
+      }
+    ],
+
+    "devtools_page": "devtools/devtools-page.html"
+  
+  }
+  
