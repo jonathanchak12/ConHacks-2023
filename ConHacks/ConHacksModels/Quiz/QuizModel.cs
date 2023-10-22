@@ -4,13 +4,19 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ConHacksModels.Quiz;
 
+public class Quiz
+{
+    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)] public Guid Id { get; set; }
+    [Required] public string Course { get; set; }
+    [Required] public string Unit { get; set; }
+    [Required] public string Question { get; set; }
+    [Required] public string Solution { get; set; }
+}
+
 public class NewQuiz
 {
-    [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)] Guid id { get; set; }
-    [Required] public Guid UserId { get; set; }
-    [ForeignKey("UserId")] public IdentityUser? User;
-    [Required] public Guid CourseId { get; set; }
-    [Required] public Guid UnitId { get; set; }
+    [Required] public string Course { get; set; }
+    [Required] public string Unit { get; set; }
     [Required] public string Question { get; set; }
     [Required] public string Solution { get; set; }
 }

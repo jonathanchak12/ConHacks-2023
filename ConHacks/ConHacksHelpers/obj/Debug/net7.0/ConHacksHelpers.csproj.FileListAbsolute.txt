@@ -1,0 +1,12 @@
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\bin\Debug\net7.0\ConHacksHelpers.deps.json
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\bin\Debug\net7.0\ConHacksHelpers.dll
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\bin\Debug\net7.0\ConHacksHelpers.pdb
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.csproj.AssemblyReference.cache
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.AssemblyInfoInputs.cache
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.AssemblyInfo.cs
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.csproj.CoreCompileInputs.cache
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.dll
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\refint\ConHacksHelpers.dll
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ConHacksHelpers.pdb
+C:\Users\navjo\OneDrive\Desktop\ConHacks2023\ConHacks\ConHacksHelpers\obj\Debug\net7.0\ref\ConHacksHelpers.dll
