@@ -33,7 +33,7 @@ Getting Started
 ===============
 Prerequisites
 -------------
-* Make sure you have Node.js installed to handle the frontend. Download here
+* Make sure you have Node.js installed to handle the frontend. [Download here](https://nodejs.org/en/download/current)
 * .NET SDK is required for backend services. [Download here](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 Installation
