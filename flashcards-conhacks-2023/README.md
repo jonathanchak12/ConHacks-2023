@@ -13,7 +13,7 @@
 
 # Overview
 
-FlashyCon is a web application designed to help students efficiently memorize course concepts. Created during the ConHacks 2023 Hackathon in Waterloo, ON, this tool allows users to create custom flashcards for their enrolled courses, facilitating a personalized and interactive learning experience.
+FlashyCon is a web application designed to help students efficiently memorize course concepts. Created during the ConHacks 2023 Hackathon in Waterloo, ON, this tool allows users to create custom flashcards for their enrolled courses, facilitating a personalized and interactive learning experience. This project was developed over the course of only ~9 hours.
 
 # Features
 

@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import flashyConLogo from "./assets/FlashyCon Logo.png";
+import About from "./pages/About.jsx";
 import Courses from "./pages/Courses.jsx";
 import Flashcards from "./pages/Flashcards.jsx";
 import Home from "./pages/Home.jsx";
-import Qa from "./pages/Qa.jsx";
 import Unit from "./pages/Unit.jsx";
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
     case "/unit":
       Component = Unit;
       break;
-    case "/qa":
-      Component = Qa;
+    case "/about":
+      Component = About;
       break;
   }
 
