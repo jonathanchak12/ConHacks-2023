@@ -1,12 +1,41 @@
-import { useState } from "react";
-import Flashcard from "../Flashcard";
-import Navbar from "../Navbar";
+import { useEffect, useRef, useState } from "react";
+import Flashcard from "../FlashcardComponent";
 
 function Flashcards() {
   const [flashcards, setFlashcards] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [term, setTerm] = useState("");
   const [definition, setDefinition] = useState("");
+
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        setShowModal(false);
+      }
+    };
+
+    const handleEscKey = (event) => {
+      if (event.key === "Escape" || event.key === "Esc") {
+        setShowModal(false);
+      }
+    };
+
+    if (showModal) {
+      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("keydown", handleEscKey);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleEscKey);
+    }
+
+    // Cleanup on component unmount
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleEscKey);
+    };
+  }, [showModal]);
 
   const handleNewFlashcard = () => {
     if (term && definition) {
@@ -16,6 +45,7 @@ function Flashcards() {
       setShowModal(false);
     }
   };
+
   return (
     <>
       <div>
@@ -30,7 +60,7 @@ function Flashcards() {
         <button onClick={() => setShowModal(true)}>Add Flashcard</button>
 
         {showModal && (
-          <div className="modal open">
+          <div className="modal open" ref={modalRef}>
             <div className="modal-header">Create New Flashcard</div>
             <input
               className="modal-input"

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Flashcard.css";
+import "./FlashcardComponent.css";
 
-function Flashcard({ term, definition }) {
+function FlashcardComponent({ term, definition }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -19,4 +19,4 @@ function Flashcard({ term, definition }) {
   );
 }
 
-export default Flashcard;
+export default FlashcardComponent;
