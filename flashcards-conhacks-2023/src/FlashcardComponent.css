@@ -29,10 +29,67 @@
 }
 
 .flashcard-front {
-  background-color: #e9e9e9;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0px 1px 17px -2px #7d9add;
+  color: black;
 }
 
 .flashcard-back {
-  background-color: #d6d6d6;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0px 1px 17px -2px #7d9add;
   transform: rotateY(180deg);
+  color: black;
+}
+
+/* Styling for creating flashcards button */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #f2fcfc;
+  border-radius: 10px;
+  box-shadow: 0px 1px 17px -2px #7d9add;
+  display: none;
+}
+
+.modal.open {
+  display: block;
+}
+
+.modal-header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d6bcfd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.modal-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #bbeeff;
+  color: #2d2d55;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.modal-button:hover {
+  color: #f4fbfd;
+  background-color: #d6bcfd;
 }
