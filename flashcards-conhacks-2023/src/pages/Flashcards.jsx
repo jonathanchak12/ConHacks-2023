@@ -57,7 +57,9 @@ function Flashcards() {
           />
         ))}
 
-        <button onClick={() => setShowModal(true)}>Add Flashcard</button>
+        <button className="home-buttons" onClick={() => setShowModal(true)}>
+          Add Flashcard
+        </button>
 
         {showModal && (
           <div className="modal open" ref={modalRef}>
