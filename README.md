@@ -18,10 +18,10 @@ CourseMemorizer is a dynamic FlashyCon web application designed to help students
 
 Features
 ========
-**Create custom courses:** Users can add new courses relevant to their study field.
-**Modular learning:** Break down courses into manageable modules for systematic learning.
-**Interactive flashcards:** Add flashcards within modules to assist in memorizing concepts and definitions.
-And more to come...
+* **Create custom courses:** Users can add new courses relevant to their study field.
+* **Modular learning:** Break down courses into manageable modules for systematic learning.
+* **Interactive flashcards:** Add flashcards within modules to assist in memorizing concepts and definitions.
+* And more to come...
 
 Technologies Used
 =================
