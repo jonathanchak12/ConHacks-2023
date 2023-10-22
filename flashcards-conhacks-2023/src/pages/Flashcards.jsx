@@ -18,7 +18,6 @@ function Flashcards() {
   };
   return (
     <>
-      <Navbar></Navbar>
       <div>
         {flashcards.map((flashcard, index) => (
           <Flashcard
