@@ -40,7 +40,7 @@ Installation
 ------------
 1. Clone the repository
 ```sh
-git clone https://github.com/your_username_/CourseMemorizer.git
+git clone https://github.com/decaf12/ConHacks2023.git
 ```
 2. Navigate to the frontend directory and install NPM packages
 ```sh
