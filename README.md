@@ -44,7 +44,7 @@ git clone https://github.com/decaf12/ConHacks2023.git
 ```
 2. Navigate to the frontend directory and install NPM packages
 ```sh
-cd flashcard
+cd flashcard-conhacks-2023
 npm install
 ```
 3. Move to the backend directory
@@ -54,7 +54,7 @@ cd ../ConHacks
 4. Set up your .NET environment and start the server
 5. Run the frontend
 ```sh
-cd ../flashcard
+cd ../flashcard-conhacks-2023
 npm start
 ```
 Your application should now be running on localhost:3000 (or whatever your specified port is).

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj": {}
+    "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
+    "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj",
+        "projectUniqueName": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj",
         "projectName": "ConHacksHelpers",
-        "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj",
-        "packagesPath": "C:\\Users\\navjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\obj\\",
+        "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj",
+        "packagesPath": "C:\\Users\\syhof\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\navjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\syhof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,25 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj": {
+    "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj",
+        "projectUniqueName": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj",
         "projectName": "ConHacksModels",
-        "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj",
-        "packagesPath": "C:\\Users\\navjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\obj\\",
+        "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj",
+        "packagesPath": "C:\\Users\\syhof\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\navjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\syhof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
-                "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj"
+              "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
+                "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj"
               }
             }
           }
@@ -142,25 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj": {
+    "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj",
+        "projectUniqueName": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj",
         "projectName": "ConHacks",
-        "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj",
-        "packagesPath": "C:\\Users\\navjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacks\\obj\\",
+        "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacks\\ConHacks.csproj",
+        "packagesPath": "C:\\Users\\syhof\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacks\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\navjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\syhof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,11 +162,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
-                "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj"
+              "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj": {
+                "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksHelpers\\ConHacksHelpers.csproj"
               },
-              "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj": {
-                "projectPath": "C:\\Users\\navjo\\OneDrive\\Desktop\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj"
+              "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj": {
+                "projectPath": "C:\\Users\\syhof\\OneDrive - Conestoga College\\SET\\3\\ConHacks2023\\ConHacks2023\\ConHacks\\ConHacksModels\\ConHacksModels.csproj"
               }
             }
           }
@@ -247,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
